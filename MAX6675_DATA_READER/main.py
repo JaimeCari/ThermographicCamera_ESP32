@@ -192,7 +192,7 @@ class ArduinoControlApp(QWidget):
                 # Use the filename provided by the user
                 self.csv_file = open(csv_filename, 'w', newline='')
                 self.csv_writer = csv.writer(self.csv_file)
-                self.csv_writer.writerow(['Tiempo (s)', 'Temperatura (°C)'])
+                self.csv_writer.writerow(['Tiempo', 'Temperatura'])
                 self.statusBar.showMessage(f"Grabando en {os.path.basename(csv_filename)}") # Display only filename in status bar
 
             except IOError as e:
