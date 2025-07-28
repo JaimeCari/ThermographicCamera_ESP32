@@ -13,3 +13,8 @@ Protoboard
 
 
 ESP32
+
+
+https://github.com/sparkfun/SparkFun_MLX90640_Arduino_Example
+https://github.com/adafruit/Adafruit_MLX90640/blob/master/examples/MLX90640_simpletest/MLX90640_simpletest.ino
+https://how2electronics.com/diy-amg8833-thermal-camera-with-esp8266-ili9341/
