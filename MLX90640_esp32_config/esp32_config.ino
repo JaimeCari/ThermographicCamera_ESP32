@@ -152,6 +152,7 @@ void UpdateThermalData() {
   SetTempScale();
 
   DisplayMLXData();
+  Serial.println("START DATA");
 
   for (row = 0; row < 24; row++) {
     for (col = 0; col < 32; col++) {
@@ -162,6 +163,7 @@ void UpdateThermalData() {
     }
     Serial.println();
   }
+  Serial.print("END DATA");
 }
 
 void DisplayMLXData() {
